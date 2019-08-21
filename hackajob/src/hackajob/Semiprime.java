@@ -3,6 +3,7 @@ package hackajob;
 /*product of two prime numbers*/
 public class Semiprime {
 	public static boolean run(int number) {
+		
 		double d = number;
 		boolean isSemiprime = true;
 		if(number <= 2 || number > Math.pow(10,8) ) return false;
